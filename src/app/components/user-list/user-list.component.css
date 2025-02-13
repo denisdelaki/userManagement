@@ -1,0 +1,42 @@
+.user-list-container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .search-field {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+  }
+  
+  .users-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  
+  .user-card {
+    height: 100%;
+  }
+  
+  .user-card mat-card-content {
+    margin-top: 16px;
+  }
+  
+  .user-card mat-card-content p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+  }
+  
+  .user-card mat-icon {
+    color: #673ab7;
+  }
+  
