@@ -28,13 +28,13 @@ git clone https://github.com/denisdelaki/userManagement.git
 2. Navigate to the project directory:
 
 ```bash
-
+ cd userManagement
 ```
 
 3. Install dependencies:
 
 ```bash
-
+npm install
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ git clone https://github.com/denisdelaki/userManagement.git
 1. Start the development server:
 
 ```bash
-
+ ng server
 ```
 
 2. Open your browser and navigate to http://localhost:4200 to access the application.
