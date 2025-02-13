@@ -93,7 +93,7 @@ export class UserListComponent {
       setTimeout(() => {
         this.filteredUsers = this.users;
         this.isLoading = false;
-      }, 2000);
+      }, 1000);
     }
   }
   
